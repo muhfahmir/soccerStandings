@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px)
 {
 	.navbar-brand{
-		margin-left: 35%!important;
+		margin-left: 43%!important;
 	}
 	.active{
 		width: 55%;
@@ -32,7 +32,7 @@
 @media screen and (min-width: 620px) and (max-width: 720px)
 {
 	.navbar-brand{
-		margin-left: 40%!important;
+		margin-left: 43%!important;
 	}
 	.active{
 		width: 45% ;
