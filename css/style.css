@@ -1,0 +1,175 @@
+@media screen and (max-width: 600px)
+{
+	.navbar-brand{
+		margin-left: 35%!important;
+	}
+	.active{
+		width: 55%;
+	}
+	.nav-link:hover{
+		width: 55%;
+	}
+	.navbar-nav{
+		margin-left: 5%!important;
+	}
+	.playerInfo{
+		font-size: 20px!important;
+	}
+	.imgTitle,#imgTitle{
+		margin-top: 50px!important;
+		width: 100px!important;
+	}
+	.cardName{
+		font-size: 23px !important;
+	}
+	.cardInfo{
+		font-size: 15px !important;
+	}
+	.imgPlayer{
+		width: 50px!important;
+	}
+}
+@media screen and (min-width: 620px) and (max-width: 720px)
+{
+	.navbar-brand{
+		margin-left: 40%!important;
+	}
+	.active{
+		width: 45% ;
+	}
+	.nav-link:hover{
+		width: 45% ;
+	}
+	.navbar-nav{
+		margin-left: 13%!important;
+	}
+	.playerInfo{
+		font-size: 20px!important;
+	}
+	.imgTitle,#imgTitle{
+		margin-top: 50px !important;
+		width: 100px!important;
+	}
+	.cardName{
+		font-size: 30px !important;
+	}
+	.cardInfo{
+		font-size: 16px !important;
+	}
+	.imgPlayer{
+		width: 50px!important;
+	}
+}
+
+*{
+	font-family: "Titillium Web", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+	background-color: #E3E5E6 !important;
+}
+
+#bodyNavbar{
+	background-color: #081F2C !important;
+}
+
+.nav-link:hover{
+	cursor: pointer;
+	opacity: 0.8s;
+	border-bottom: 2px solid #00A9CE;
+}
+
+.navbar-brand{
+	font-size: 30px !important;
+	margin-left: 11%;
+}
+
+.nav-link{
+	font-size: 20px;
+}
+
+.navbar-nav{
+	margin-left: 10%;
+}
+
+.cardTeam{
+	padding: 20px 10px 3px 15px;
+}
+
+.imgTeam{
+	width: 80px !important;
+}
+
+.imgTitle{
+	width:150px !important;
+}
+
+.imgPlayer{
+	width: 80px;
+}
+
+.infoTeam{
+	font-size: 22px;
+}
+.cardInfo{
+	font-size: 22px;
+}
+
+.titleLeague{
+	position: absolute;
+	margin-top: -20px !important;
+	height: 280px;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.countryLeague{
+	float: right;
+	margin-top: 145px;
+}
+
+.nameTeam{
+	font-size: 22px;
+}
+
+.rankTeam{
+	float: right; 
+	font-size:28px;
+}
+
+.statusTeam{
+	border-radius: 5px !important;
+	margin-top: 5px;
+	padding: 2px !important;
+	font-size: 15px;
+}
+
+.favTeam{
+	display: inline-block !important;
+	padding: 4px 10px !important;
+	border-radius: 3px !important;
+	margin-top: 10px;
+	transition: 0.5s !important;
+}
+.spinner-grow{
+	width: 3rem; 
+	height: 3rem; 
+}
+.active{
+	border-bottom: 2px solid #00A9CE;
+}
+
+.playerInfo{
+	font-size: 25px;
+}
+
+footer{
+	bottom: 0;
+	width: 100%;
+	background-color: #081F2C;
+	padding-top: : 20px;
+}
+
+footer p{
+	font-size: 0.9em;
+}
